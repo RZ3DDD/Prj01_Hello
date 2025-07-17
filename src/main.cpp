@@ -17,6 +17,12 @@ extern "C" void app_main(void)
     }
 }
 
+
+/**
+ * @brief Should be performed once. Должна выполнятся единожды.
+ * 
+ * @return esp_err_t 
+ */
 esp_err_t Main::setup(void)
 {
     esp_err_t status{ESP_OK};
